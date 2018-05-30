@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nameCard{
+  text-align: center;
+  width: 500px;
+  height: 150px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 30px;
+}
+
+.nameCardGroup{
+  flex-wrap:wrap;
+  display: flex;
+  justify-content: center;
+}
+.input-group{
+  align-self: center;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.text-input{
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.button-input{
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.smallBlock{
+   margin: 10px;
+  width: 40%;
+    height: 100%;
+    
+    display: inline-block;
+}

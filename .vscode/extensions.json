@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "EditorConfig.editorconfig",
+    "henry-li.vscode-import-formatter",
+    "dbaeumer.vscode-eslint",
+    "mrmlnc.vscode-stylefmt"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "apollo-client-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-boost": "^0.1.6",
+    "apollo-cache-inmemory": "^1.1.5",
+    "apollo-cache-persist": "^0.1.1",
+    "apollo-client": "^2.2.1",
+    "apollo-link": "^1.0.7",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.3.2",
+    "apollo-link-state": "^0.4.1",
+    "apollo-link-ws": "^1.0.4",
+    "apollo-utilities": "^1.0.6",
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "react": "^16.3.2",
+    "react-apollo": "^2.1.3",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "subscriptions-transport-ws": "^0.9.5"
+  },
+  "scripts": {
+    "start": "react-app-env start",
+    "build": "react-app-env --env-file=${BUILD_ENV}.env build",
+    "build:development": "BUILD_ENV=development yarn build",
+    "build:production": "BUILD_ENV=production yarn build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "react-app-env": "^1.2.0"
+  }
+}
